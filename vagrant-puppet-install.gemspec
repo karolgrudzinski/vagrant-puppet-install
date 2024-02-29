@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'vagrant-puppet-install/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'vagrant-puppet-install'
+  spec.name          = 'vagrant-puppet-install-new'
   spec.version       = VagrantPlugins::PuppetInstall::VERSION
   spec.authors       = ['Seth Chisamore', 'Patrick Connolly', 'Peter Souter']
   spec.email         = ['schisamo@opscode.com', 'patrick@myplanetdigital.com', 'p.morsou@gmail.com']
   spec.description   = 'A Vagrant plugin that ensures the desired version of Puppet is installed via the Puppet Labs package repos.'
   spec.summary       = spec.description
-  spec.homepage      = 'https://github.com/patcon/vagrant-puppet-install'
+  spec.homepage      = 'https://github.com/karolgrudzinski/vagrant-puppet-install'
   spec.license       = 'Apache 2.0'
 
   spec.files         = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
